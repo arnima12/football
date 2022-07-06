@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+header{
+    
+    background-color: #2D25A0;
+
+}
+nav{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap:450;
+    padding-top: 42px;
+    margin-left: 156px;
+    margin-right: 124px;
+
+}
+nav ul{
+    list-style-type:none;
+    
+}
+nav ul a{
+    padding-right:1.5rem;
+    color: white;
+}
+
+.menu ul {
+    display:flex;
+    align-items: center;
+    
+      
+}
+.menu ul li{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.hero{
+    
+    display: grid;
+    grid-template-columns: 743px 799px;
+    padding-bottom:169px;
+   
+}
+.text{
+    margin-left:156px;
+    
+}
+.text-box{
+    width:485px;
+    height:230px;
+    margin-top: 120px;
+    font-weight: 700;
+    font-size:54px;
+    color:white;
+    margin-bottom:27px;
+
+}
+.btn{
+   
+    background-color: #E02C6D;
+    padding:10px 24px;
+    border: 2px solid transparent;
+    color:white;
+
+}
+.image img{
+    width: 556.01px;
+    height: 438px;
+    padding-bottom:86px;
+    padding-right:140.99px;
+    
+
+}
+.image{
+    padding-top: 67px;
+   
+    
+}
+main{
+    background-color: rgb(255, 254, 254);
+}
+.player-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:2px;
+    margin: 70px 180px;
+    background-color: rgb(230, 225, 225);
+    
+}
+.player{
+    width:180px;
+    padding: 15px;
+    background-color: aliceblue;
+    margin: 30px 60px;
+   
+}
+.player img{
+    height:120px;
+    width:180px;
+}
+h3{
+    margin: 5px 0;
+}
+section{
+    margin-left:182px;
+    margin-right: 156px;
+    margin-top: 2px;
+}
+.highlight{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.highlight-image img{
+    height: 427px;
+    width:567px;
+
+}
+.high-text-box{
+    padding-top:224px;
+}
+.highlight-image{
+    padding-top:164px;
+}
+h2{
+    color:#0A0826;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+p{
+    font-size:18px;
+    color:rgb(151, 146, 146);
+}
+.high-text-box{
+    height:309px;
+    width:360px;
+    
+}
+.high-text{
+    margin:10px 0;
+}
+.football{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:158px;
+    padding-bottom:63px;
+}
+.football img{
+    height:200px;
+    width:300px;
+    margin-bottom:20px;
+}
+.social-media{
+    margin-bottom:20px;
+}
+.copyright p{
+    color:black;
+}
+.social-media i{
+    background-color: rgb(212, 203, 203);
+    border-radius: 50%;
+    padding:8px;
+}
