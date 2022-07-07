@@ -13,6 +13,7 @@ header{
     background-color: #2D25A0;
 
 }
+
 nav{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -45,7 +46,7 @@ nav ul a{
 .hero{
     
     display: grid;
-    grid-template-columns: 743px 799px;
+    grid-template-columns: 1fr 2fr;
     padding-bottom:169px;
    
 }
@@ -64,7 +65,8 @@ nav ul a{
 
 }
 .btn{
-   
+    width:150px;
+    height:40px;
     background-color: #E02C6D;
     padding:10px 24px;
     border: 2px solid transparent;
@@ -84,6 +86,7 @@ nav ul a{
    
     
 }
+/*main starts*/
 main{
     background-color: rgb(255, 254, 254);
 }
@@ -91,8 +94,10 @@ main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:2px;
+    place-items: center;
     margin: 70px 180px;
     background-color: rgb(230, 225, 225);
+   
     
 }
 .player{
@@ -109,6 +114,7 @@ main{
 h3{
     margin: 5px 0;
 }
+/*section starts*/
 section{
     margin-left:182px;
     margin-right: 156px;
@@ -126,9 +132,12 @@ section{
 }
 .high-text-box{
     padding-top:224px;
+    height:309px;
+    width:360px;
 }
 .highlight-image{
     padding-top:164px;
+
 }
 h2{
     color:#0A0826;
@@ -139,11 +148,7 @@ p{
     font-size:18px;
     color:rgb(151, 146, 146);
 }
-.high-text-box{
-    height:309px;
-    width:360px;
-    
-}
+
 .high-text{
     margin:10px 0;
 }
