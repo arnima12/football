@@ -1,129 +1,136 @@
 @media (max-width:992px){
-   
-    .text-box{
-        width:350px;
+    .navbar{
+        width:100%;
+        max-width:920px;
+        margin:0 auto; 
     }
     .image img{
         width: 350px;
-       
-   
+       height: auto;
     }
-    
-    .hero{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-       
-       
+    .hero-inner{
+     width:100%;
+     max-width:920px;
+     margin:0 auto;  
     }
     .player-container{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        
-        margin: 70px 0;
-        
-        
+        grid-template-columns: repeat(3,1fr);   
     }
     .highlight-image img{
-        height: 400px;
         width:380px;
-    
+        height:auto;
     }
-   
-        
-       
-    
+    .highlight{
+        width:100%;
+        max-width:920px;
+        margin:0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media (max-width:768px){
-    nav{
+   
+    .navbar{
         display: grid;
         grid-template-columns: 3fr 1fr;
-        
-        padding-top: 42px;
-        margin-left: 100px;
-        margin-right: 100px;
-    
+        width:100%;
+        max-width:700px;
+        margin:0 auto; 
     }
-    nav ul a{
-        padding-right:2rem;
-        color: white;
+    .btn{
+        width:120px;
+        height:auto;
     }
-   
-   .text-box{
-    width:100px;
-    height:120px;
-    font-size:30px;
-    margin-bottom:27px;
-   }
-   .text{
-    margin-left:100px;
-    
-}
+   .hero-inner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        width:100%;
+        max-width:700px;
+        margin:0 auto; 
+    }
    .image img{
-    width:250px;
-    height:250px;
-    padding-right:40px;
-   }
+        width:250px;
+        height:auto;
+    }
 
-   .btn{
-   
-    width:120px;
-    height:40px;
-    padding:10px 10px;
+    .player-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     
+}
+    .highlight{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        width:100%;
+        max-width:700px;
+        margin:0 auto; 
+    
+}
+    
+    .highlight-image img{
+       width:200px;
+       height:auto;
+}
+    h2{
+        font-size: 30px;
+    }
+}
+    @media (max-width:640px){
+    .navbar{
+        width:100%;
+        max-width:580px;
+        margin:0 auto; 
+        }  
+    .menu ul{
+        visibility:hidden;
 
-}
-    .login{
-    margin-top:15px;
+    }  
+    .menu .icon {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+      }
+      .btn{
+        width:100px;
+        height:40px;
+        padding:2px;
+      }
+      .hero-inner{
+        padding-top:100px;
+        width:100%;
+        max-width:580px;
+        margin:0 auto; 
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
 
-}
-.hero{
-    
-   
-    padding-bottom:100px;
-   
-}
-.player-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 70px 60px;
-}
+      }
+      .image img{
+        width:300px;
+        height:auto;
+    }
 
-.highlight{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
-    
-}
-section{
-    margin: 0 50px;
-    
-}
-.high-text-box{
-    padding-top:50px;
-    height:200px;
-    width:200px;
-    padding-bottom: 30px;
-}
-.highlight-image img{
-    height: 200px;
-    width:200px;
-
-}
-h2{
-    
-    font-size: 30px;
-    
-}
-.football img{
-    height:150px;
-    width:200px;
-    margin-bottom:20px;
-}
-}
-@media (max-width:640px){
     .player-container{
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
     }
+    .highlight{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        width:100%;
+        max-width:580px;
+        margin:0 auto;
+        padding-top:100px; 
 }
+    .highlight-image img{
+        width:fit-content;
+        height:auto;
+}
+
+    }

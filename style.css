@@ -10,17 +10,29 @@ a{
 }
 header{
     
-    background-color: #2D25A0;
+   margin:0 auto;
 
 }
 
 nav{
+  
+    position:fixed;
+    top:0;
+    width: 100%;
+    background-color: #2D25A0;
+    
+   
+
+}
+.navbar{
+    
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-gap:450;
-    padding-top: 42px;
-    margin-left: 156px;
-    margin-right: 124px;
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 1rem 0;
 
 }
 nav ul{
@@ -44,29 +56,34 @@ nav ul a{
 }
 
 .hero{
+    background-color: #2D25A0;
     
+    
+    
+}
+.hero-inner{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-bottom:169px;
-   
+    place-items: center;
+    min-height: 100vh;
+    max-width:1000px;
+    margin: 0 auto;
 }
+
 .text{
-    margin-left:156px;
+    height:fit-content;
     
 }
 .text-box{
-    width:485px;
-    height:230px;
-    margin-top: 120px;
     font-weight: 700;
     font-size:54px;
     color:white;
-    margin-bottom:27px;
+    
 
 }
 .btn{
     width:150px;
-    height:40px;
+    height:auto;
     background-color: #E02C6D;
     padding:10px 24px;
     border: 2px solid transparent;
@@ -75,16 +92,12 @@ nav ul a{
 }
 .image img{
     width: 556.01px;
-    height: 438px;
-    padding-bottom:86px;
-    padding-right:140.99px;
-    
-
+    max-width: 30rem;
+    height: auto;
 }
 .image{
-    padding-top: 67px;
-   
-    
+    height: fit-content;
+
 }
 /*main starts*/
 main{
@@ -95,8 +108,10 @@ main{
     grid-template-columns: repeat(3,1fr);
     grid-gap:2px;
     place-items: center;
-    margin: 70px 180px;
     background-color: rgb(230, 225, 225);
+    width: 100%;
+    max-width:1000px;
+    margin:0 auto;
    
     
 }
@@ -104,39 +119,41 @@ main{
     width:180px;
     padding: 15px;
     background-color: aliceblue;
-    margin: 30px 60px;
+    margin:1rem 0;
+    
    
 }
 .player img{
-    height:120px;
+    
     width:180px;
+    max-width:20rem;
+    height:auto;
 }
 h3{
     margin: 5px 0;
 }
 /*section starts*/
 section{
-    margin-left:182px;
-    margin-right: 156px;
-    margin-top: 2px;
+    width:100%;
 }
 .highlight{
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    
 }
 .highlight-image img{
-    height: 427px;
-    width:567px;
-
+     width:567px;
+     max-width:30rem;
+    height:auto;
 }
 .high-text-box{
-    padding-top:224px;
-    height:309px;
-    width:360px;
+    
+    margin:auto 0;
 }
 .highlight-image{
-    padding-top:164px;
+    margin: 10rem 0;
 
 }
 h2{
@@ -150,19 +167,19 @@ p{
 }
 
 .high-text{
-    margin:10px 0;
+    height:fit-content;
+    margin: 1rem 0;
 }
 .football{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top:158px;
-    padding-bottom:63px;
+    
 }
 .football img{
-    height:200px;
     width:300px;
+    height:auto;
     margin-bottom:20px;
 }
 .social-media{
